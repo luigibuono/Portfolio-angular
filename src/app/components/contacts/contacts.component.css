@@ -1,0 +1,54 @@
+.title1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:43px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+.container{
+display: flex;
+justify-content: center;
+height: 70px;
+
+}
+.btn{
+  font-size: 50px;
+  background: yellow;
+  border:5px dashed rgb(145, 255, 1);
+}
+.container1{
+  background-image: url("../../../assets/sfondo1.jpg");
+}
+.container2{
+  background-image: url("../../../assets/sfondo2.jpg");
+}
+.container3{
+  background-image: url("../../../assets/sfondolinke.jpg");
+}
+body{
+  background-color: aqua;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+ *{
+  font-size:10px;
+ }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  *{
+    font-size:10px;
+   }
+}

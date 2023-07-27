@@ -1,0 +1,9 @@
+body
+{
+  margin: 20px;
+}
+mat-progress-bar {
+  width:30%;
+  height: 30px;
+
+}

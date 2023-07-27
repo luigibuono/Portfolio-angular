@@ -1,0 +1,22 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <mat-list role="list">
+    <mat-list-item role="listitem"routerLink="about"[routerLinkActive]="'active'">About</mat-list-item>
+    <mat-list-item role="listitem"routerLink="education"[routerLinkActive]="'active'">Education</mat-list-item>
+    <mat-list-item role="listitem"routerLink="projects"[routerLinkActive]="'active'">Projects</mat-list-item>
+    <mat-list-item role="listitem"routerLink="contacts"[routerLinkActive]="'active'">Contacts</mat-list-item>
+  </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My Personal Portfolio</span>
+    <span class="example-spacer"></span>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
