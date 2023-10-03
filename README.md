@@ -1,4 +1,4 @@
-<h1 class="center"> #4 </h1>
+<h1 align="center">#4 </h1>
 
 # Portfolio
 
